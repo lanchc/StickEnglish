@@ -62,11 +62,16 @@ class HomeController: NSViewController {
     
     private func clean() {
         
+        timer.cancelTimer()
+        /// 清除粘贴板
+        NSPasteboard.general.declareTypes([NSPasteboard.PasteboardType.string], owner: nil)
         NSPasteboard.general.setString("", forType: .string)
+        
+        lastContent = ""
         
         outputText.string = ""
         
-        lastContent = ""
+        timer.startTimer()
     }
     
     

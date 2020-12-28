@@ -685,7 +685,7 @@
             <objects>
                 <windowController id="B8D-0N-5wS" customClass="WindowController" customModule="StickEnglish" customModuleProvider="target" sceneMemberID="viewController">
                     <window key="window" title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" id="IQv-IB-iLA">
-                        <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
+                        <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES"/>
                         <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
                         <rect key="contentRect" x="196" y="240" width="320" height="240"/>
                         <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1027"/>
@@ -710,17 +710,17 @@
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <scrollView borderType="none" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aWo-ax-c05">
-                                <rect key="frame" x="10" y="70" width="300" height="160"/>
+                                <rect key="frame" x="10" y="44" width="300" height="186"/>
                                 <clipView key="contentView" drawsBackground="NO" id="cVb-on-XJj">
-                                    <rect key="frame" x="0.0" y="0.0" width="285" height="160"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="285" height="186"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
-                                        <textView importsGraphics="NO" richText="NO" verticallyResizable="YES" spellingCorrection="YES" smartInsertDelete="YES" id="2cr-WE-cNf">
-                                            <rect key="frame" x="0.0" y="0.0" width="285" height="160"/>
+                                        <textView editable="NO" importsGraphics="NO" richText="NO" verticallyResizable="YES" spellingCorrection="YES" smartInsertDelete="YES" id="2cr-WE-cNf">
+                                            <rect key="frame" x="0.0" y="0.0" width="285" height="186"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
-                                            <size key="minSize" width="285" height="160"/>
+                                            <size key="minSize" width="285" height="186"/>
                                             <size key="maxSize" width="300" height="10000000"/>
                                             <color key="insertionPointColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                         </textView>
@@ -731,15 +731,15 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                 </scroller>
                                 <scroller key="verticalScroller" verticalHuggingPriority="750" horizontal="NO" id="MYa-uz-v03">
-                                    <rect key="frame" x="285" y="0.0" width="15" height="160"/>
+                                    <rect key="frame" x="285" y="0.0" width="15" height="186"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </scroller>
                             </scrollView>
-                            <stackView distribution="fillEqually" orientation="horizontal" alignment="top" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QKd-fj-9LM">
-                                <rect key="frame" x="10" y="10" width="300" height="50"/>
+                            <stackView distribution="fillEqually" orientation="horizontal" alignment="centerY" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QKd-fj-9LM">
+                                <rect key="frame" x="10" y="5" width="300" height="34"/>
                                 <subviews>
                                     <button verticalHuggingPriority="750" tag="1000" translatesAutoresizingMaskIntoConstraints="NO" id="KH9-vB-JUf">
-                                        <rect key="frame" x="-6" y="22" width="158" height="32"/>
+                                        <rect key="frame" x="-6" y="0.0" width="158" height="32"/>
                                         <buttonCell key="cell" type="push" title="清除" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="R2F-PX-PnT">
                                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                             <font key="font" metaFont="system"/>
@@ -749,7 +749,7 @@
                                         </connections>
                                     </button>
                                     <button verticalHuggingPriority="750" tag="1001" translatesAutoresizingMaskIntoConstraints="NO" id="4Vo-AV-TaH">
-                                        <rect key="frame" x="148" y="22" width="158" height="32"/>
+                                        <rect key="frame" x="148" y="0.0" width="158" height="32"/>
                                         <buttonCell key="cell" type="push" title="英语-&gt;中文" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="VJm-pt-BGi">
                                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                             <font key="font" metaFont="system"/>
@@ -760,7 +760,7 @@
                                     </button>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="eBJ-tB-OuC"/>
+                                    <constraint firstAttribute="height" constant="34" id="eBJ-tB-OuC"/>
                                 </constraints>
                                 <visibilityPriorities>
                                     <integer value="1000"/>
@@ -773,12 +773,12 @@
                             </stackView>
                         </subviews>
                         <constraints>
-                            <constraint firstItem="QKd-fj-9LM" firstAttribute="top" secondItem="aWo-ax-c05" secondAttribute="bottom" constant="10" id="3hO-dJ-kkn"/>
+                            <constraint firstItem="QKd-fj-9LM" firstAttribute="top" secondItem="aWo-ax-c05" secondAttribute="bottom" constant="5" id="3hO-dJ-kkn"/>
                             <constraint firstItem="QKd-fj-9LM" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="10" id="74Y-tG-nXX"/>
                             <constraint firstItem="aWo-ax-c05" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" constant="10" id="JeT-vo-48Z"/>
                             <constraint firstAttribute="trailing" secondItem="aWo-ax-c05" secondAttribute="trailing" constant="10" id="QjL-cs-zTZ"/>
                             <constraint firstAttribute="trailing" secondItem="QKd-fj-9LM" secondAttribute="trailing" constant="10" id="ZAc-TV-BCy"/>
-                            <constraint firstAttribute="bottom" secondItem="QKd-fj-9LM" secondAttribute="bottom" constant="10" id="rd6-fQ-rzM"/>
+                            <constraint firstAttribute="bottom" secondItem="QKd-fj-9LM" secondAttribute="bottom" constant="5" id="rd6-fQ-rzM"/>
                             <constraint firstItem="aWo-ax-c05" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="10" id="uOa-xl-kVp"/>
                         </constraints>
                     </view>

@@ -31,7 +31,7 @@ class TimerHelper: NSObject {
         }
     }
     
-    fileprivate func startTimer() {
+    func startTimer() {
         guard self.automaticSlidingInterval > 0 && self.timer == nil else {
             return
         }
@@ -39,7 +39,7 @@ class TimerHelper: NSObject {
         RunLoop.current.add(self.timer!, forMode: .common)
     }
     
-    fileprivate func cancelTimer() {
+    func cancelTimer() {
         guard self.timer != nil else {
             return
         }
