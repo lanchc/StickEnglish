@@ -1,0 +1,6 @@
+framework module Pods_StickEnglish {
+  umbrella header "Pods-StickEnglish-umbrella.h"
+
+  export *
+  module * { export * }
+}

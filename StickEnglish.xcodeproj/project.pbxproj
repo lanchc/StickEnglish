@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F649BAF0B300B41B560B643 /* Pods_StickEnglish.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AF69C068CCAC8E12A38AC34 /* Pods_StickEnglish.framework */; };
+		81335D4B2594887000EFDAF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81335D4A2594887000EFDAF0 /* AppDelegate.swift */; };
+		81335D4F2594887200EFDAF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81335D4E2594887200EFDAF0 /* Assets.xcassets */; };
+		81335D522594887200EFDAF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81335D502594887200EFDAF0 /* Main.storyboard */; };
+		81335D5B259489C100EFDAF0 /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81335D5A259489C100EFDAF0 /* WindowController.swift */; };
+		81335D5D259489D000EFDAF0 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81335D5C259489D000EFDAF0 /* HomeController.swift */; };
+		81335D5F25948EC700EFDAF0 /* BaiduApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81335D5E25948EC700EFDAF0 /* BaiduApi.swift */; };
+		81335D61259490D900EFDAF0 /* TimerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81335D60259490D900EFDAF0 /* TimerHelper.swift */; };
+		815ACC7525996F0300C3D584 /* LanguageType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815ACC7425996F0300C3D584 /* LanguageType.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0AF69C068CCAC8E12A38AC34 /* Pods_StickEnglish.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StickEnglish.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C3FC253DDC4B7F86CA12AFD /* Pods-StickEnglish.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StickEnglish.release.xcconfig"; path = "Target Support Files/Pods-StickEnglish/Pods-StickEnglish.release.xcconfig"; sourceTree = "<group>"; };
+		81335D472594886F00EFDAF0 /* StickEnglish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StickEnglish.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81335D4A2594887000EFDAF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		81335D4E2594887200EFDAF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		81335D512594887200EFDAF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		81335D532594887200EFDAF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81335D542594887200EFDAF0 /* StickEnglish.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StickEnglish.entitlements; sourceTree = "<group>"; };
+		81335D5A259489C100EFDAF0 /* WindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
+		81335D5C259489D000EFDAF0 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		81335D5E25948EC700EFDAF0 /* BaiduApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaiduApi.swift; sourceTree = "<group>"; };
+		81335D60259490D900EFDAF0 /* TimerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerHelper.swift; sourceTree = "<group>"; };
+		815ACC7425996F0300C3D584 /* LanguageType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageType.swift; sourceTree = "<group>"; };
+		B9D05B30C57153D732ED53C2 /* Pods-StickEnglish.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StickEnglish.debug.xcconfig"; path = "Target Support Files/Pods-StickEnglish/Pods-StickEnglish.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81335D442594886F00EFDAF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F649BAF0B300B41B560B643 /* Pods_StickEnglish.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6422FBBB337E0988522CA38E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0AF69C068CCAC8E12A38AC34 /* Pods_StickEnglish.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		81335D3E2594886F00EFDAF0 = {
+			isa = PBXGroup;
+			children = (
+				81335D492594886F00EFDAF0 /* StickEnglish */,
+				81335D482594886F00EFDAF0 /* Products */,
+				DA4EB5FC2F513B4BC0CA33FA /* Pods */,
+				6422FBBB337E0988522CA38E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		81335D482594886F00EFDAF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81335D472594886F00EFDAF0 /* StickEnglish.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81335D492594886F00EFDAF0 /* StickEnglish */ = {
+			isa = PBXGroup;
+			children = (
+				81335D5E25948EC700EFDAF0 /* BaiduApi.swift */,
+				815ACC7425996F0300C3D584 /* LanguageType.swift */,
+				81335D60259490D900EFDAF0 /* TimerHelper.swift */,
+				81335D4A2594887000EFDAF0 /* AppDelegate.swift */,
+				81335D4E2594887200EFDAF0 /* Assets.xcassets */,
+				81335D502594887200EFDAF0 /* Main.storyboard */,
+				81335D532594887200EFDAF0 /* Info.plist */,
+				81335D542594887200EFDAF0 /* StickEnglish.entitlements */,
+				81335D5A259489C100EFDAF0 /* WindowController.swift */,
+				81335D5C259489D000EFDAF0 /* HomeController.swift */,
+			);
+			path = StickEnglish;
+			sourceTree = "<group>";
+		};
+		DA4EB5FC2F513B4BC0CA33FA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B9D05B30C57153D732ED53C2 /* Pods-StickEnglish.debug.xcconfig */,
+				5C3FC253DDC4B7F86CA12AFD /* Pods-StickEnglish.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81335D462594886F00EFDAF0 /* StickEnglish */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81335D572594887200EFDAF0 /* Build configuration list for PBXNativeTarget "StickEnglish" */;
+			buildPhases = (
+				D0B884A71FED2B670AE625D1 /* [CP] Check Pods Manifest.lock */,
+				81335D432594886F00EFDAF0 /* Sources */,
+				81335D442594886F00EFDAF0 /* Frameworks */,
+				81335D452594886F00EFDAF0 /* Resources */,
+				D0706B5E822454F98E58B24D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StickEnglish;
+			productName = StickEnglish;
+			productReference = 81335D472594886F00EFDAF0 /* StickEnglish.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81335D3F2594886F00EFDAF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = Lanchc;
+				TargetAttributes = {
+					81335D462594886F00EFDAF0 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 81335D422594886F00EFDAF0 /* Build configuration list for PBXProject "StickEnglish" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 81335D3E2594886F00EFDAF0;
+			productRefGroup = 81335D482594886F00EFDAF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81335D462594886F00EFDAF0 /* StickEnglish */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81335D452594886F00EFDAF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81335D4F2594887200EFDAF0 /* Assets.xcassets in Resources */,
+				81335D522594887200EFDAF0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D0706B5E822454F98E58B24D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StickEnglish/Pods-StickEnglish-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StickEnglish/Pods-StickEnglish-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StickEnglish/Pods-StickEnglish-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0B884A71FED2B670AE625D1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StickEnglish-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81335D432594886F00EFDAF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81335D5F25948EC700EFDAF0 /* BaiduApi.swift in Sources */,
+				815ACC7525996F0300C3D584 /* LanguageType.swift in Sources */,
+				81335D61259490D900EFDAF0 /* TimerHelper.swift in Sources */,
+				81335D5D259489D000EFDAF0 /* HomeController.swift in Sources */,
+				81335D5B259489C100EFDAF0 /* WindowController.swift in Sources */,
+				81335D4B2594887000EFDAF0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		81335D502594887200EFDAF0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81335D512594887200EFDAF0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		81335D552594887200EFDAF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.16;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		81335D562594887200EFDAF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.16;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		81335D582594887200EFDAF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9D05B30C57153D732ED53C2 /* Pods-StickEnglish.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = StickEnglish/StickEnglish.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 666D6293XM;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = StickEnglish/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lanchc.StickEnglish;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		81335D592594887200EFDAF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C3FC253DDC4B7F86CA12AFD /* Pods-StickEnglish.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = StickEnglish/StickEnglish.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 666D6293XM;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = StickEnglish/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lanchc.StickEnglish;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81335D422594886F00EFDAF0 /* Build configuration list for PBXProject "StickEnglish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81335D552594887200EFDAF0 /* Debug */,
+				81335D562594887200EFDAF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81335D572594887200EFDAF0 /* Build configuration list for PBXNativeTarget "StickEnglish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81335D582594887200EFDAF0 /* Debug */,
+				81335D592594887200EFDAF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81335D3F2594886F00EFDAF0 /* Project object */;
+}
